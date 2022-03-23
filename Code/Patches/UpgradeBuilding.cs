@@ -35,6 +35,7 @@ public bool UpgradeBuilding(ushort buildingID, bool useConstructionCost)
 		{
 			Vector3 position = m_buildings.m_buffer[buildingID].m_position;
 			float angle = m_buildings.m_buffer[buildingID].m_angle;
+			// Modify BuildingTool.DispatchPlacementEffect such that info.m_cellLength is substituted out for a variable showing Zone depth associated with buildingID
 			BuildingTool.DispatchPlacementEffect(info2, 0, position, angle, info2.m_cellWidth, info2.m_cellLength, bulldozing: false, collapsed: false);
 		}
 		buildingID = m_buildings.m_buffer[buildingID].m_subBuilding;
