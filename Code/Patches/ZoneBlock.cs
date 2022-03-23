@@ -1,3 +1,4 @@
+// Decompiled and commented by Boformer, 2016 - https://gist.github.com/boformer/aa850369bfa58c839bdc
 // Decompiled with JetBrains decompiler
 // Type: ZoneBlock
 // Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
